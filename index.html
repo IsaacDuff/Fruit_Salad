@@ -12,7 +12,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="assets/style/main.css">
   <link rel="stylesheet" href="assets/style/style.css">
-  <title>Fruit_Salad</title>
+  <title>Fruit Salad</title>
 </head>
 
 <body>
@@ -26,14 +26,47 @@
     </nav>
   </header>
   <main>
+
     <div class="container-fluid">
-      <div class="row">
-        <div class="col-12">
-          <div id="app"></div>
+      <section class="row">
+        <div class="col-6">
+          <div class="row">
+            <div class="col-8 elevation-4">
+              <p>Name</p>
+              <p>Score</p>
+            </div>
+            <div class="col-8 elevation-4">
+              <p>Fruit</p>
+              <input type="text" class="elevation-2" name="game" id="game" placeholder="Enter Text Here">
+            </div>
+          </div>
         </div>
-      </div>
+
+
+        <div class="col-6">
+
+          <h3>Top Score</h3>
+          <section class="row justify-content-center elevation-4" id="playerCard">
+            <div class="col-6">
+              <p>Players</p>
+            </div>
+            <div class="col-6">
+              <p>Score</p>
+            </div>
+          </section>
+          <div class="row justify-content-center elevation-4 p-2" id="playerForm">
+            <!-- <form class="col-4" onsubmit="" action="">
+              <label for="playerEntry">Enter New Contestant</label>
+              <input type="text" class="elevation-2" name="playerEntry" id="playerEntry" placeholder="Player Name">
+            </form> -->
+          </div>
+
+        </div>
+      </section>
     </div>
+
   </main>
+
   <footer class="bg-dark text-light">
     <div class="text-center no-select">
       <p><small>Made with 💖 by CodeWorks</small></p>
