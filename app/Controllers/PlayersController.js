@@ -30,6 +30,13 @@ export class PlayersController {
         // console.log(newPlayer)
         playersService.createPlayer(newPlayer)
 
+        setActive(playerID) {
+            playersService.setActive(playerID)
+        }
+
+    }
+
+    setActive() {
 
     }
 }
